@@ -1,0 +1,132 @@
+.rootContainer{
+    background-color : #CED2DC;
+    height : 100vh;
+}
+.root{
+    width  : 42%;
+    height : 100vh;
+}
+.height-100{
+    height : 100%
+}
+.play-button-container{
+    height:100%;
+    padding-left:11.18% ;
+}
+.play-button-text{
+    letter-spacing: 4.4px;
+    color: #424242;
+    margin:0px 0px 0px 6px 
+}
+.play-button-icon{
+    color : #fff;
+    font-size: 2rem !important;
+}
+.wrapper-play-button{
+    width:19.5%;
+    display: inline-block;
+    position: relative;
+}
+.wrapper-play-button:after {
+    padding-top: 100%;
+    display: block;
+    content: '';
+}
+.play-button{
+    padding-top:26%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #FF7243 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 50px #FF724373;
+    border-radius: 20px;
+    opacity: 1;
+}
+.header{
+    width  : 42%;
+    margin : 0 auto;
+    height : 24vh;
+    padding-left: 2.625%;
+    padding-bottom: 1.7325%;
+}
+.title{
+    color: #3D4276;
+    font-size : 1rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+}
+.subtitle{
+    color: #949494;
+    font-weight: 400 !important;
+    width: 25%;
+    letter-spacing: 0 !important;
+}
+.divider{
+    width  : 85%;
+    margin : 0 auto !important;
+}
+.main{
+    height : 62vh;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px #00000029;
+    border: 1px solid #F7F7F7;
+    border-radius: 30px;
+    opacity: 1;
+    position: relative;
+    z-index : 100
+}
+.main-item{
+    flex-grow: 1;
+    padding  : 5.5%
+}
+.mainImage{
+    width:59%;
+    height:77%;
+    position: absolute;
+    margin: -50% 0px 0px 45%;
+}
+.game-option-container{
+    width:47.5%;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 6px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.game-option-title{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 500 ;
+    border: 0; background: none;
+    cursor: pointer;
+}
+.game-option-title:focus{border: none; outline: none;}
+.game-option-image-wrapper{
+    width:17%;
+    margin:0px 20px;
+}
+.game-option-image{
+    height:0;
+    padding-top: 100%;
+    width:100%;
+}
+.footer{
+    flex-grow: 1;
+}
+.footerPanel{
+    background-color: #eeeeee;
+    border-radius: 30px;
+    opacity: 1;
+    height:50vh;
+    margin-top: -40vh;
+}
+.trademark{
+    padding-bottom:4% ;
+    padding-left : 7%;
+}
+.footText{
+    font-size:0.725rem !important
+}

@@ -1,0 +1,90 @@
+.board-wrapper{
+    width:65%;
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.board-wrapper:after {
+    padding-top: 100%;
+    display: block;
+    content: '';
+}
+.board{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 30px;
+    padding:3%;
+    background: #FFF;
+    border: 2px solid #FFF;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.height-100{
+    height :100%
+}
+.board-cell{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 12%;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.board-elements{
+    background-color: #84a4fc;
+    border-radius: 18px;
+}
+
+.board-cell .MuiCardMedia-root{display: inline-block; margin: 0 auto; border-radius: 100%;}
+
+.statictics-container{padding: 3%;}
+.statistics-panel{
+    width:35%;
+    padding: 1%;
+}
+.panel{
+    display : flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.board_elements{position: relative; z-index: 1;}
+/* .board_elements::after{content: ""; position: absolute; background: #84a4fc; width: 92%; height: 92%; z-index: 0;} */
+
+.statistics-panel h1, .statistics-panel h2{font-weight: 500; margin: 6px 0;}
+.statistics-panel h1{color: #FF6600; font-weight:600; font-size: 36px;}
+.statistics-panel h2{color:#424242;  font-size: 30px;}
+.statistics-panel h3{margin: 0; font-weight: 500;}
+
+.board-cell p{  margin: 0 auto; font-size: 24px;    color: #FFF; display: block;}
+
+.twoplayersgame_pl1{background: #dcf6e4; border: 1px solid #d7efde; margin: 10px 0; padding: 3%;}
+.twoplayersgame_pl1 div:nth-child(2), .twoplayersgame_pl2 div:nth-child(2){width: 35%;}
+.twoplayersgame_pl1 div:nth-child(3), .twoplayersgame_pl2 div:nth-child(3){width: 20%;}
+
+.twoplayersgame_pl2{background: #f6efd5; border: 1px solid #e7e1ca;padding: 3%;}
+
+.MuiDivider-root{margin: 10px 0;}
+.active{background: #FFA200;}
+.panel-image{ width: 63px; height: 63px; margin-right: 12px; text-align: center; display: flex; align-items: center; border-radius: 100px;}
+.endgame__button{width: 100%;}
+.endgame__button .MuiButton-label{background: #FFF; border-radius: 16px; color: #cc0000; cursor: pointer; padding: 6% 3%; font-size: 20px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);}
+.player1-board-cell-container{
+    width:100%;
+    border-radius: 100%;
+    border:4px solid #37ac5d
+}
+.player2-board-cell-container{
+    width:100%;
+    border-radius: 100%;
+    border:4px solid #F8D146
+}
