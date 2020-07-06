@@ -1,4 +1,4 @@
 export const ROUTES ={
-    HOME : '/',
+    HOME : '/connect-four',
     TWO_PLAYER_GAME : '/two-player-game'
 }
